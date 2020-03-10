@@ -1,23 +1,14 @@
 {
   "store.home": {
     "blocks": [
-      //"rich-text", // Até aula 7
-      //"info-card#button-right", // Até aula 7
-      //"info-card#button-left", // Até aula 7
-      //"flex-layout.row" // Aula 7
-      // "shelf" // Aula 8
-      // "slider-layout#home" // Aula 9
-      //"responsive-layout.desktop#desktop", // Aula 10
-      //"responsive-layout.mobile#mobile" // Aula 10
-      "store.product" // Aula 11
+      "info-card#button-right", // Até aula 7
+      "info-card#button-left", // Até aula 7
+      "flex-layout.row", // Aula 7
+       "shelf", // Aula 8
+       "slider-layout#home", // Aula 9
+      "responsive-layout.desktop#desktop", // Aula 10
+      "responsive-layout.mobile#mobile" // Aula 10
     ]
-  }
-  // Até aula 7:
-  /*"rich-text": {
-    "props": {
-      "text": "*Hello, World!*",
-      "textPosition": "RIGHT"
-    }
   },
   "info-card#button-right": {
     "props": {
@@ -46,10 +37,10 @@
       "textAlignment": "center",
       "blockClass": "metal"
     }
-  },*/
+  },
 
 // Aula 7
-/*  
+ 
   "flex-layout.row":{
     "children": [
       "info-card#rethink",
@@ -82,10 +73,10 @@
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
       "maxWidth": "100%"
     }
-  }
-*/
+  },
+
 // Aula 10
-/*"responsive-layout.desktop#desktop": {
+"responsive-layout.desktop#desktop": {
   "children": ["rich-text#desktop",
     "image#desktop"]
 },
@@ -130,6 +121,6 @@
     "textPosition": "CENTER",
     "textAlignment": "CENTER"
   }
-}*/
+}
 
 }
