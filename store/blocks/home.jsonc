@@ -5,7 +5,8 @@
       //"info-card#button-right", // Até aula 7
       //"info-card#button-left", // Até aula 7
       //"flex-layout.row" // Aula 7
-      "shelf" // Aula 8
+      // "shelf" // Aula 8
+      "slider-layout#home"
     ]
   }
   // Até aula 7:
