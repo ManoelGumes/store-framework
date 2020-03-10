@@ -7,10 +7,11 @@
       //"flex-layout.row" // Aula 7
       // "shelf" // Aula 8
       // "slider-layout#home" // Aula 9
-      "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile"
+      //"responsive-layout.desktop#desktop", // Aula 10
+      //"responsive-layout.mobile#mobile" // Aula 10
+      "store.product" // Aula 11
     ]
-  },
+  }
   // Até aula 7:
   /*"rich-text": {
     "props": {
@@ -83,7 +84,8 @@
     }
   }
 */
-"responsive-layout.desktop#desktop": {
+// Aula 10
+/*"responsive-layout.desktop#desktop": {
   "children": ["rich-text#desktop",
     "image#desktop"]
 },
@@ -128,5 +130,6 @@
     "textPosition": "CENTER",
     "textAlignment": "CENTER"
   }
-}
+}*/
+
 }
