@@ -6,9 +6,11 @@
       //"info-card#button-left", // Até aula 7
       //"flex-layout.row" // Aula 7
       // "shelf" // Aula 8
-      "slider-layout#home"
+      // "slider-layout#home" // Aula 9
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
     ]
-  }
+  },
   // Até aula 7:
   /*"rich-text": {
     "props": {
@@ -81,4 +83,50 @@
     }
   }
 */
+"responsive-layout.desktop#desktop": {
+  "children": ["rich-text#desktop",
+    "image#desktop"]
+},
+
+"responsive-layout.mobile#mobile": {
+  "children": ["rich-text#mobile",
+    "image#mobile"]
+},
+
+"image#desktop": {
+  "props": {
+    "maxWidth": "100%",
+    "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
+    "link": {
+      "url": "/small-appliances/coffee-makers"
+    } ,
+    "alt": "Coffee Makers Collection"
+  }
+},
+
+"image#mobile": {
+  "props": {
+    "maxWidth": "100%",
+    "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
+    "link": {
+      "url": "/small-appliances/coffee-makers"
+    } ,
+    "alt": "Coffee Makers Collection"
+  }
+},
+"rich-text#desktop": {
+  "props": {
+    "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+    "textPosition": "CENTER",
+    "textAlignment": "CENTER"
+  }
+},
+
+"rich-text#mobile": {
+  "props": {
+    "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
+    "textPosition": "CENTER",
+    "textAlignment": "CENTER"
+  }
+}
 }
