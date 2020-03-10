@@ -55,7 +55,7 @@
   "sku-selector": {
     "props": {
       "initialSelection": "empty",
-      "ShowValueForVariation": "image",
+      "showValueNameForImageVariation": true,
       "showVariationsErrorMessage": true
     }
   },
