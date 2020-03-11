@@ -1,4 +1,3 @@
-
 {
     "header.full": {
       "blocks": [
@@ -14,7 +13,15 @@
         "header-row#menu"
       ]
     },
-
+  
+    "header-row#menu": {
+      "children": [
+        "header-spacer",
+        "vtex.menu@2.x:menu#categories",
+        "header-spacer"
+      ]
+    },
+  
     "header-layout.mobile": {
       "children": [
         "header-row#notification",
@@ -41,8 +48,7 @@
       ],
       "props": {
         "inverted": true,
-        "sticky": true,
-        "fullWidth": false
+         "sticky": true
       }
     },
   
@@ -84,16 +90,8 @@
   
     "rich-text#header": {
       "props": { 
-        "text": "**Free Shipping on orders over $50**",
-        "textPosition": "CENTER"
+        "text": "**Free Shipping on orders over $50**"
       }
-    },
-    "header-row#menu": {
-        "children": [
-          "header-spacer",
-          "vtex.menu@2.x:menu#categories",
-          "header-spacer"
-        ]
-      }
+    }
   
   }
