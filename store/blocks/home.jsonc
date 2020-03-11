@@ -127,6 +127,7 @@
 },
 "footer-layout.desktop": {
   "children": [
+    "flex-layout.row",
     "flex-layout.row#footer-1-desktop"
   ]
 }
